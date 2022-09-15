@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202024
+}
+h3 {
+    color: #fff;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 6px; 15px;
+    border-radius: 5px;
+    background-color: #4169E1;
+    
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.copy {
+    margin: 15px 0;
+}
+
+.btnG {
+    background-color: #696969;
+}
